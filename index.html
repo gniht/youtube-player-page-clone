@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>uTube-html-practice</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,11 +24,10 @@
       <img src="" alt="image of my avatar">
     </div>
   </header>
-  <hr>
+  
   <main>
     <div class="main-content">
       <iframe width="1120" height="660" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </div>    
     <div class="suggested-videos">
       
@@ -37,7 +36,7 @@
         <img src="https://placekitten.com/g/200/300" alt="a cute kitten">
         <div class="description">
           <h3>Cat Video</h3>        
-          <p>this is the rest of the stuff that should be said regarding this video...</p>
+          <p>you really gotta watch this, it's purrrfect!</p>
         </div>
       </div>
       
@@ -47,7 +46,7 @@
         <img src="https://placekitten.com/g/200/300" alt="a cute kitten">
         <div class="description">
           <h3>Cat Video</h3>        
-          <p>this is the rest of the stuff that should be said regarding this video...</p>
+          <p>This is sooo boring, watching it might even make you CATatonic...</p>
         </div>
       </div>
       
@@ -55,7 +54,7 @@
         <img src="https://placekitten.com/g/200/300" alt="a cute kitten">
         <div class="description">
           <h3>Cat Video</h3>        
-          <p>this is the rest of the stuff that should be said regarding this video...</p>
+          <p>It should be said regarding this video... it's a CATastropy!</p>
         </div>
       </div>
       
@@ -63,13 +62,30 @@
         <img src="https://placekitten.com/g/200/300" alt="a cute kitten">
         <div class="description">
           <h3>Cat Video</h3>        
-          <p>this is the rest of the stuff that should be said regarding this video...</p>
+          <p>What's it called when we add more and more videos? conCATonation!</p>
         </div>  
       </div>
 
     </div>
 
+    <hr>
+
   </main>
+  <form action="/index.html" method="POST" id="form">
+    <ul>
+      <li>
+        <label for="username">Name:</label>
+        <input type="text" name="user_name" id="username" placeholder="Enter your name">
+      </li>
+      <li>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email address" id="email">
+      </li>
+      <li class="button">
+        <button type="submit">Send your message</button>
+      </li>      
+    </ul>    
+  </form>
 
 </body>
 </html>
